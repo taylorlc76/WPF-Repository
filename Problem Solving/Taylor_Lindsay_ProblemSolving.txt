@@ -2,6 +2,8 @@ Lindsay TaylorFebruary 4, 2014Web Programming FundamentalsProblem SolvingA 
 
 In this scenario, a man needs to figure out a way to get a cat and parrot over to the other side of a river without the cat with the parrot or the parrot with a bag of seed; the man can only bring one thing with him in the boat to the other side. 
 
+I know that I cannot leave the parrot with the cat or the seed because one or the other will be eaten.
+
 Socks In the Dark:
 
 In this scenario, I need to figure out the shortest times I reach into the sock drawer to get at least one matching pair and then determine the shortest amount of times to get a matching pair of each color when there are 20 socks in the drawer. 10 of them are black, 6 of them are white, and 4 of them are white.

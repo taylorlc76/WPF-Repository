@@ -12,4 +12,4 @@ I need to make sure that I am figuring out getting matching pairs and not the pr
 
 Predicting Fingers:In this scenario, I need to know which finger will the girl land on when she gets to the numbers 10, 100, and 1000. 
 
-I have to keep in mind that the girl skips the pinkie finger on the even waves of counting on her hands. 
+I have to keep in mind that the girl skips the pinkie finger on the even waves of counting on her hands. A potential solution is that I physically do the counting the way the girl does in the problem until I reach these numbers.

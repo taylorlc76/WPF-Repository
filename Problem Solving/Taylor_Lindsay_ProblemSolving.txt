@@ -8,7 +8,7 @@ Socks In the Dark:
 
 In this scenario, I need to figure out the shortest times I reach into the sock drawer to get at least one matching pair and then determine the shortest amount of times to get a matching pair of each color when there are 20 socks in the drawer. 10 of them are black, 6 of them are white, and 4 of them are white.
 
-I need to make sure that I am figuring out getting matching pairs and not the probability of the socks in the drawer.
+I need to make sure that I am figuring out getting matching pairs and not the probability of the socks in the drawer. A possible solution is to actually label my own socks and test out the theory in real life.
 
 Predicting Fingers:In this scenario, I need to know which finger will the girl land on when she gets to the numbers 10, 100, and 1000. 
 

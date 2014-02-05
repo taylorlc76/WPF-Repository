@@ -11,3 +11,5 @@ In this scenario, I need to figure out the shortest times I reach into the sock 
 I need to make sure that I am figuring out getting matching pairs and not the probability of the socks in the drawer.
 
 Predicting Fingers:In this scenario, I need to know which finger will the girl land on when she gets to the numbers 10, 100, and 1000. 
+
+I have to keep in mind that the girl skips the pinkie finger on the even waves of counting on her hands. 

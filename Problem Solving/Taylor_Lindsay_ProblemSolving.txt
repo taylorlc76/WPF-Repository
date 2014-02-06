@@ -17,3 +17,5 @@ With this possible solution in mind, I will find 20 individual socks and mark th
 Predicting Fingers:In this scenario, I need to know which finger will the girl land on when she gets to the numbers 10, 100, and 1000. 
 
 I have to keep in mind that the girl skips the pinkie finger on the even waves of counting on her hands. A potential solution is that I physically do the counting the way the girl does in the problem until I reach these numbers. Getting to 10 and 100 on my fingers in this fashion will not be difficult but counting to 1000 may be a concern. Possible miscount or losing track can make for starting over and potentially answering the question wrong. At that point, if it does occur, a new method may be needed.
+
+Using this theory, I will count on my hand in the method the little girl uses in the problem, taking note of any patterns of counting used; such as, if _9 lands on the thumb I can track up to one number less than each required for this question quickly without having to actually count all the way to each one.

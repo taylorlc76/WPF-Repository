@@ -1,6 +1,6 @@
 Lindsay TaylorFebruary 4, 2014Web Programming FundamentalsProblem SolvingA Cat, a Parrot, and a Bag of Seed:
 
-In this scenario, a man needs to figure out a way to get a cat and parrot over to the other side of a river without the cat with the parrot or the parrot with a bag of seed; the man can only bring one thing with him in the boat to the other side. 
+In this scenario, a man needs to figure out a way to get a cat and parrot over to the other side of a river without leaving the cat with the parrot or the parrot with a bag of seed; the man can only bring one thing with him in the boat to the other side. 
 
 I know that I cannot leave the parrot with the cat or the seed because one or the other will be eaten. A possible solution is that I take the bird with me on the first trip so that the cat is stuck with the seed, which it does not want. According to this solution, once the bird is brought to the other side, it will fly off in whichever way it desires so that once I bring over the cat or the seed, it will be gone and no temptation from the bird or cat will happen. 
 

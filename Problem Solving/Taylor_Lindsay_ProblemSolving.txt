@@ -4,6 +4,8 @@ In this scenario, a man needs to figure out a way to get a cat and parrot over t
 
 I know that I cannot leave the parrot with the cat or the seed because one or the other will be eaten. A possible solution is that I take the bird with me on the first trip so that the cat is stuck with the seed, which it does not want. According to this solution, once the bird is brought to the other side, it will fly off in whichever way it desires so that once I bring over the cat or the seed, it will be gone and no temptation from the bird or cat will happen. 
 
+After determining that this solution would be the best, the man will bring over the parrot to the other side of the river while the cat stays back with the bag of seed. Once the parrot is safely brought to the other side, it will fly off into the trees. On the second trip, the bag of seeds is brought over and tied securely so that if the parrot is still around, it cannot get to the seeds. Lastly, the cat is brought over, resulting in the problem being resolved and all items are safely brought from the other side of the river to this side.
+
 Socks In the Dark:
 
 In this scenario, I need to figure out the shortest times I reach into the sock drawer to get at least one matching pair and then determine the shortest amount of times to get a matching pair of each color when there are 20 socks in the drawer. 10 of them are black, 6 of them are white, and 4 of them are white.

@@ -8,9 +8,11 @@ After determining that this solution would be the best, the man will bring over 
 
 Socks In the Dark:
 
-In this scenario, I need to figure out the shortest times I reach into the sock drawer to get at least one matching pair and then determine the shortest amount of times to get a matching pair of each color when there are 20 socks in the drawer. 10 of them are black, 6 of them are white, and 4 of them are white.
+In this scenario, I need to figure out the shortest times I reach into the sock drawer to get at least one matching pair and then determine the shortest amount of times to get a matching pair of each color when there are 20 socks in the drawer. 10 of them are black, 6 of them are brown, and 4 of them are white.
 
 I need to make sure that I am figuring out getting matching pairs and not the probability of the socks in the drawer. A possible solution is to actually label my own socks and test out the theory in real life. According to this solution, it will give me an idea of how to answer this question. The only concern about this possible solution is making sure I have enough of my own socks to test this theory out, if not, I will have to determine another solution.
+
+With this possible solution in mind, I will find 20 individual socks and mark them specifically for 10 black, 6 brown, and 4 white. Second, I will have someone shuffle them up in a drawer that I cannot see. Afterwards I will randomly draw a sock from the drawer and record which one I took. I will keep doing this and chart how quickly I drew a matching pair and then a matching pair of each color. I will use this theory a few times in order to get enough information to find an exact number of socks needed to draw from the drawer to answer these questions.
 
 Predicting Fingers:In this scenario, I need to know which finger will the girl land on when she gets to the numbers 10, 100, and 1000. 
 

@@ -10,6 +10,6 @@ var transitions = prompt("How many transitions will there be during the show for
 
 var transitionTime = prompt("How many minutes will be allowed for makeup changes during transitions?"); //this variable allows for the user to input time between transitions needing makeup done for the girls
 
-var result = girls * minutes * transitions; //this variable will display the minutes total when calculating how many girls, minutes for each girl, and the amount of transitions during the show
+var result = (girls * preshow) + (transitionTime *transitions / girls); //this variable will display the minutes total when calculating how many girls, minutes for each girl, and the amount of transitions during the show
 
 console.log(result);

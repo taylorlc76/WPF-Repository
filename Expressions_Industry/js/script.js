@@ -16,3 +16,4 @@ var result = numOfBrews * liquidCoffee; //this calculates the answer to my promb
 
 alert("Your bag of beans makes " + result + " ounces of hot liquid coffee"); //this shows the user the result of the inputs given from them of the amount of ounces of coffee made from their bag of beans
 
+console.log("Your bag of beans makes " + result + " ounces of hot liquid coffee"); //this prints out the result to the console

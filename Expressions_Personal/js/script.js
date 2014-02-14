@@ -2,4 +2,5 @@
 
 //Using number of girls, time for each girl, and amount of transitions between performances, I can calculate amount of time spent volunteering at the show doing makeup.
 
-var girls = prompt("Enter number of girls?");
+var girls = prompt("Enter number of girls?"); //this allows for the user to be prompted to enter in the number of girls needing makeup done for the show
+

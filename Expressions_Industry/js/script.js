@@ -12,4 +12,6 @@ var wholeGrounds = bag / 16; //this allows for me to calculate the amount of oun
 
 var numOfBrews = wholeGrounds / groundCoffee; //this caclulates the number of brews made from one whole bag of coffee beans
 
-var result = numOfBrews * liquidCoffee; //this calculates the answer to my promblem of how much coffee is made from one bag of beans
+var result = numOfBrews * liquidCoffee; //this calculates the answer to my promblem of how many ounces of coffee is made from one bag of beans
+
+alert("Your bag of beans makes " + result + " ounces of hot liquid coffee");

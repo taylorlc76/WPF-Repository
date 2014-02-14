@@ -12,4 +12,4 @@ var transitionTime = prompt("How many minutes will be allowed for makeup changes
 
 var result = (girls * preshow) + (transitionTime *transitions / girls); //this variable will calculate the minutes total for before the show and add the minutes total for during the show together to show the total minutes doing makeup in all
 
-console.log(result);
+console.log(result); //prints it out to the console

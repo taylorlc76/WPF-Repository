@@ -12,3 +12,4 @@ var ampsToWatts = amperes * outletVolts; //this calculates how many watts are in
 
 var result = ampsToWatts / lightbulbWattage; //this calculates the amount lightbulbs with their wattage that equal to the wattage the fuse box can take
 
+alert("You will blow your fuse box with " + result);

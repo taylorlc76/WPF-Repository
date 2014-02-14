@@ -8,4 +8,4 @@ var minutes = prompt("How many minutes needed for each?"); //this allows for the
 
 var transitions = prompt("How many transitions will there be during the show?"); //this allows for the user to tell me the amount of transitions during the show for my calculation
 
-var result = girls * minutes * transitions;
+var result = girls * minutes * transitions; //this variable will display the minutes total when calculating how many girls, minutes for each girl, and the amount of transitions during the show

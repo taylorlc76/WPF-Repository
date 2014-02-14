@@ -14,4 +14,4 @@ var result = (girls * preshow) + (transitionTime *transitions / girls); //this v
 
 console.log(result); //prints it out to the console
 
-alert("The amount of minutes needed for makeup is");
+alert("The amount of minutes needed for makeup is" + "minutes.");

@@ -1,2 +1,4 @@
 //Lindsay Taylor, 02/13/2014, Expressions Assignment
 
+//How much can a bag of whole coffee beans make into fresh, hot coffee using size of bag of beans, amount each brew makes into liquid, amount of grounded beans needed for each brew.
+

@@ -4,4 +4,4 @@
 
 var girls = prompt("Enter number of girls?"); //this allows for the user to be prompted to enter in the number of girls needing makeup done for the show
 
-prompt("How many minutes needed for each?");
+var minutes = prompt("How many minutes needed for each?");

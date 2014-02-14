@@ -6,7 +6,7 @@ var girls = prompt("Enter number of girls?"); //this allows for the user to be p
 
 var preshow = prompt("How many minutes allotted for each girl before the show?"); //this allows for the user to input how many minutes they will allot for each girl for makeup
 
-var transitions = prompt("How many transitions will there be during the show?"); //this allows for the user to tell me the amount of transitions during the show needed to change up makeup
+var transitions = prompt("How many transitions will there be during the show for more makeup?"); //this allows for the user to tell me the amount of transitions during the show needed to change up makeup
 
 var result = girls * minutes * transitions; //this variable will display the minutes total when calculating how many girls, minutes for each girl, and the amount of transitions during the show
 

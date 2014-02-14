@@ -2,3 +2,4 @@
 
 //How much can a bag of whole coffee beans make into fresh, hot coffee using size of bag of beans, amount each brew makes into liquid, amount of grounded beans needed for each brew.
 
+prompt("How many pounds of whole beans is in one bag?");

@@ -8,7 +8,7 @@ var groundCoffee = prompt("How many ounces of ground coffee is needed for one br
 
 var liquidCoffee = prompt("How many ounces of liquid coffee is made with one brew?"); //this allows for me to use the user's input for how many ounces one brew of coffee makes at one time 
 
-var wholeGrounds = bag / 16; //this allows for me to calculate the amount of ounces of ground coffee is in the user's input of what one bag of whole beans
+var wholeGrounds = bag * 16; //this allows for me to calculate the amount of ounces of ground coffee is in the user's input of what one bag of whole beans
 
 var numOfBrews = wholeGrounds / groundCoffee; //this caclulates the number of brews made from one whole bag of coffee beans
 

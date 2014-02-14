@@ -6,4 +6,5 @@ var bag = prompt("How many pounds of whole beans is in one bag?"); //this allows
 
 var groundCoffee = prompt("How many ounces of ground coffee is needed for one brew?"); //this allows for me to use the user's input of the ounces of coffee for each brew for my calculation
 
-var liquidCoffee = prompt("How much liquid coffee is made with one brew?");
+var liquidCoffee = prompt("How much liquid coffee is made with one brew?"); //this allows for me to use the user's input for how much one brew of coffee makes at one time 
+

@@ -6,4 +6,4 @@ var amperes = prompt("Please input below if your fuse uses either 15 or 15 amper
 
 var lightbulbWattage = prompt("What is the wattage of the lightbulbs?"); //thsi allows for me to use the user's input of the wattage of each lightbulb for future calculation
 
-prompt("Please input below if your outlets use 120 or 240 volts");
+var outletVolts = prompt("Please input below if your outlets use 120 or 240 volts");

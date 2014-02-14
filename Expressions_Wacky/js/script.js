@@ -14,5 +14,7 @@ var result = ampsToWatts / lightbulbWattage; //this calculates the amount lightb
 
 alert("You will blow your fuse box with " + result + " lightbulbs"); //this will present to the user based off the information provided from them how many lightbulbs it will take to blow their fuse box
 
-console.log("You will blow your fuse box with " + result + " lightbulbs");
+console.log("You will blow your fuse box with " + result + " lightbulbs"); //this will print out the result of the calculation to the console
+
+
 

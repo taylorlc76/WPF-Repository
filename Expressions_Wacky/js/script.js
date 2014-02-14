@@ -2,7 +2,7 @@
 
 //How many lightbulbs does it take to blow a fuse using wattage of lightbulb, the amperes of a fuse, and the volts of the outlets
 
-var amperes = prompt("Please input below if your fuse uses either 15 or 15 amperes"); //this will allow for me to calculate the amperes of the fuse box with the lightbuls in the future
+var amperes = prompt("Please input below if your fuse uses either 15 or 25 amperes"); //this will allow for me to calculate the amperes of the fuse box with the lightbuls in the future
 
 var lightbulbWattage = prompt("What is the wattage of the lightbulbs?"); //this allows for me to use the user's input of the wattage of each lightbulb for future calculation
 

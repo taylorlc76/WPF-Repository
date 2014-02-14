@@ -10,4 +10,5 @@ var outletVolts = prompt("Please input below if your outlets use 120 or 240 volt
 
 var ampsToWatts = amperes * outletVolts; //this calculates how many watts are in the amperes of the fuse box using the volts of the outlet 
 
-var result = ampsToWatts / lightbulbWattage;
+var result = ampsToWatts / lightbulbWattage; //this calculates the amount lightbulbs with their wattage that equal to the wattage the fuse box can take
+

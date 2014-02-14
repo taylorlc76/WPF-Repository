@@ -4,5 +4,5 @@
 
 var amperes = prompt("Please input below if your fuse uses either 15 or 15 amperes"); //this will allow for me to calculate the amperes of the fuse box with the lightbuls in the future
 
-prompt("What is the wattage of the lightbulbs?");
+var lightbulbWattage = prompt("What is the wattage of the lightbulbs?");
 

@@ -34,3 +34,13 @@
 
 //var result = slicesPerPerson - ;
 
+//Average Shopping Bill
+
+var groceryTotals = [120, 92, 87, 149, 163];
+
+var totalSpent = groceryTotals[0] + groceryTotals[1] + groceryTotals[2] + groceryTotals[3] + groceryTotals[4];
+
+var average = totalSpent / 5
+
+console.log("You have spent a total of $" + totalSpent +" on groceries over 5 weeks. That is an average of $" + average + " per week");
+

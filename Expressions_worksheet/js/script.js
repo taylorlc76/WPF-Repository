@@ -12,12 +12,13 @@
 
 //Slice of Pie part 1
 
-var partyPeople = 5;
+var partyPeople = 5; //this variable changes based on the number of people that attended the party
 
-var numOfPizzas = 10;
+var numOfPizzas = 10; //this is the variable that changes based on the number of pizzas ordered
 
-slicesPerPizza = 8;
+slicesPerPizza = 8; //this variable may be changed but during calculations cannot be changed
 
-var result = (numOfPizzas * slicesPerPizza) / partyPeople;
+var result = (numOfPizzas * slicesPerPizza) / partyPeople; //this calculates the number of pizzas by slices to figure out how many slices in total are for the party then divides by the amount of party people attending so you can know how many slices they get each, equally.
 
-console.log("Each person ate " + result + " slices of pizza at the party.");
+console.log("Each person ate " + result + " slices of pizza at the party."); //this prints out to the console "Each person ate X slices of pizza at the part."
+

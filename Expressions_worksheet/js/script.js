@@ -24,8 +24,13 @@
 
 //Slices of Pie part 2
 
-var partyPeople = 5; //this variable changes based on the number of people that attended the party
+//var partyPeople = 5; //this variable changes based on the number of people that attended the party
 
-var numOfPizzas = 10; //this is the variable that changes based on the number of pizzas ordered
+//var numOfPizzas = 10; //this is the variable that changes based on the number of pizzas ordered
 
-slicesPerPizza = 8; //this variable may be changed but during calculations cannot be changed
+//slicesPerPizza = 8; //this variable may be changed but during calculations cannot be changed
+
+//var slicesPerPerson = (numOfPizzas * slicesPerPizza) / partyPeople; 
+
+//var result = slicesPerPerson - ;
+

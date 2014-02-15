@@ -46,22 +46,22 @@
 
 //Discounts
 
-var originalPrice = 56.99;
+var originalPrice = 56.99; //this is the original prie of the item, can be changed to any number
 
-var discountPercent = 40;
+var discountPercent = 40; //this is the discount given for the item, can be changed to another
 
-var discountPercentDecimal = discountPercent / 100;
+var discountPercentDecimal = discountPercent / 100; //this is to convert the discount into a decimal for calculation later
 
-description = "vintage tunic";
+description = "vintage tunic"; //this is the description of the item, can be changed but didn't add var before since it's not used in calculations
 
-var salesTax = .09;
+var salesTax = .09; //this is the decimal of the sales tax, can be changed to another decimal
 
-var markOff = originalPrice * discountPercentDecimal;
+var markOff = originalPrice * discountPercentDecimal; //this is how to find out how much the discount takes off of the item
 
-var priceWithoutTax = originalPrice - markOff;
+var priceWithoutTax = originalPrice - markOff; //this subtracts the amount off of the item to show, without any tax or further reductions, the price of the item with the discount used above
 
-var taxed = markOff * salesTax;
+var taxed = markOff * salesTax; //this calculates based on the price of the shift after discount how much .09 tax will be charged to the item
 
-var priceWithTax = markOff + taxed;
+var priceWithTax = markOff + taxed; //this adds the taxed amount to the price of the item to get how much the item is with a discount but taxed as well
 
-console.log("Your " + description + " was orginally $" + originalPrice + ", but after a " + discountPercent + "% discount, it is now $" + priceWithoutTax + " without tax, and $" + priceWithTax + " with tax.");
+console.log("Your " + description + " was orginally $" + originalPrice + ", but after a " + discountPercent + "% discount, it is now $" + priceWithoutTax + " without tax, and $" + priceWithTax + " with tax."); //this prints out to the console "Your X was originally $X, but after a X% discount, it is now $X without tax, and $X with tax."

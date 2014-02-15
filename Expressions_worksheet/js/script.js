@@ -36,11 +36,32 @@
 
 //Average Shopping Bill
 
-var groceryTotals = [120, 92, 87, 149, 163]; //this is the list of grocery totals for 5 weeks worth. this can be changed any number for a new result later
+//var groceryTotals = [120, 92, 87, 149, 163]; //this is the list of grocery totals for 5 weeks worth. this can be changed any number for a new result later
 
-var totalSpent = groceryTotals[0] + groceryTotals[1] + groceryTotals[2] + groceryTotals[3] + groceryTotals[4]; //this is the variable adding up all of the numbers in the array above to get a single total of them all
+//var totalSpent = groceryTotals[0] + groceryTotals[1] + groceryTotals[2] + groceryTotals[3] + groceryTotals[4]; //this is the variable adding up all of the numbers in the array above to get a single total of them all
 
-var average = totalSpent / 5; //this divides the total amount spent for all 5 weeks by the number 5 which indicates the 5 weeks to get the average
+//var average = totalSpent / 5; //this divides the total amount spent for all 5 weeks by the number 5 which indicates the 5 weeks to get the average
 
-console.log("You have spent a total of $" + totalSpent +" on groceries over 5 weeks. That is an average of $" + average + " per week"); //this prints out to the console "You have spent a total of X on groceries over 5 weeks. That is an average of $122.2 per week"
+//console.log("You have spent a total of $" + totalSpent +" on groceries over 5 weeks. That is an average of $" + average + " per week"); //this prints out to the console "You have spent a total of X on groceries over 5 weeks. That is an average of $122.2 per week"
 
+//Discounts
+
+var originalPrice = 56.99;
+
+var discountPercent = 40;
+
+var discountPercentDecimal = discountPercent / 100;
+
+description = "vintage tunic";
+
+var salesTax = .09;
+
+var markOff = originalPrice * discountPercentDecimal;
+
+var priceWithoutTax = originalPrice - markOff;
+
+var taxed = markOff * salesTax;
+
+var priceWithTax = markOff + taxed;
+
+console.log("Your " + description + " was orginally $" + originalPrice + ", but after a " + discountPercent + "% discount, it is now $" + priceWithoutTax + " without tax, and $" + priceWithTax + " with tax.");

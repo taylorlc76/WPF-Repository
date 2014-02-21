@@ -10,3 +10,4 @@ var ouncesPerPerson = (wine * 33.8) / people;
 
 var winePerPerson = ouncesPerPerson / 8;
 
+(winePerPerson < 2) ? console.log("You need to buy more wine!") : console.log("You have more than enough for each person to have atleast two glasses of wine!");

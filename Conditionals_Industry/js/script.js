@@ -12,19 +12,19 @@ var applesToPie = prompt("On average, how many apples are used to make an apple 
 
 var applePies = prompt("On average, how many apple pies are made each week?"); //this is used for the amount of pies made each week
 
-var applesToOunces = caseOfApples * 16;
+var applesToOunces = caseOfApples * 16; //this calculates pounds into ounces. 1lb = 16oz
 
-var pies = (applePies * applesToPie) * 7;
+var pies = (applePies * applesToPie) * 7; //this calculates the amount of pies needed each week by the amount of apples needed for each pie. Then its multilples by 7 which is the amount of ounces each apple averages
 
-var harvest = autumnHarvest * 7
+var harvest = autumnHarvest * 7 //this multiplies the amount of apples in the autumn harvest by its average weight which is 7
 
-var applesAndPiesOunces = (applesToOunces - pies)
+var applesAndPiesOunces = (applesToOunces - pies) // this subtracts the weight of apples needed for pies from the ounces of the case of apples
 
-var totalAppsPiesHarvest = totalOunces / 7
+var totalAppsPiesHarvest = totalOunces / 7 //this divides the total of all conditions by the weight to get the exact amount of apples left for juicing
 
-var totalAppsPies = applesAndPiesOunces / 7
+var totalAppsPies = applesAndPiesOunces / 7 //this divides the tital off all conditions except autumn harvest which doesn't happen at first bye the weight of the apples total to get what's left
 
-var totalOunces = applesToOunces + pies + harvest 
+var totalOunces = applesToOunces + pies + harvest //this calculates all ounces of each whole conditions into a total of ounces
 
 if(applesToOunces / 2 > applesAndPiesOunces){
 	console.log("You have " + totalAppsPies + " apples after juicing all week!");

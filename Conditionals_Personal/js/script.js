@@ -10,16 +10,16 @@ var months = prompt("\"I need to save up for my percent down in ___ months.\"");
 
 var actualSaved = prompt("\"I can only save away $___ each month.\""); //this is the amount I can save up each month
 
-var downPayment = carPrice * percentDown
+var downPayment = carPrice * percentDown //this calculates the dollar amount of the down payment for further calculations
 
-var downInMonths = downPayment / months
+var downInMonths = downPayment / months //this calculates how much each month of the user inputted months I need to save to get the whole down payment
 
-var actualInMonths = actualSaved * months
+var actualInMonths = actualSaved * months //this shows me how much in the user inputted months I can save up for the down payment
 
-var difference = downPayment - actualInMonths
+var difference = downPayment - actualInMonths //this calculates the difference between how much I need and how much I can save
 
 if(actualInMonths >= downPayment){
-	console.log("\"I will be able to get the car!\"");
+	console.log("\"I will be able to get the car!\"");// this prints to the console if the amount I can save up is equal to or more than the down payment needed
 }else{
-	console.log("\"I will need to save up " + difference + " more!\"");
+	console.log("\"I will need to save up " + difference + " more!\""); //this prints to the console if the amount I can save up is less than the down payment needed 
 }

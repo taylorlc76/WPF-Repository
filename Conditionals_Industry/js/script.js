@@ -25,9 +25,9 @@ var totalAppsPies = applesAndPiesOunces / 7
 
 var totalOunces = (applesToOunces - pies) - harvest
 
-if(applesToOunces >= applesAndPies){
+if(applesToOunces / 2 >= applesAndPiesOunces){
 	console.log("You have " + totalAppsPies + " apples after juicing all week!");
-}else if(applesToOunces >= totalOunces){
+}else if(applesToOunces / 2 >= totalOunces){
 	console.log("You have " + totalAppsPiesHarvest + " apples after baking and juicing all week!");
 }else{
 	console.log("You need to buy more apples!");

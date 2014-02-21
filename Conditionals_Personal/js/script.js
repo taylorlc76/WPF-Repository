@@ -16,7 +16,7 @@ var downInMonths = downPayment / months
 
 var actualInMonths = actualSaved * months
 
-var difference = downInMonths - actualInMonths
+var difference = downPayment - actualInMonths
 
 if(actualInMonths > downInMonths){
 	console.log("\"I will be able to get the car!\"");

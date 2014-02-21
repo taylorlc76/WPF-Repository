@@ -6,3 +6,7 @@ var people = prompt("How many people will come to your party?");
 
 var wine = prompt("How many bottles of wine will you serve?");
 
+var ouncesPerPerson = (wine * 33.8) / people;
+
+var winePerPerson = ouncesPerPerson / 8;
+

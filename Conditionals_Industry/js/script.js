@@ -22,7 +22,7 @@ var applesAndPies = (applesToOunces - pies)
 var total = (applesToOunces - pies) - harvest
 
 if(applesToOunces >= applesAndPies){
-	console.log("You have " + applesAndPies + " apples after baking and juicing all week!");
+	console.log("You have " + applesAndPies + " apples after juicing all week!");
 }else if(applesToOunces >= total){
 	console.log("You have " + total + " apples after baking and juicing all week!");
 }else{

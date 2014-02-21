@@ -27,9 +27,9 @@ var totalAppsPies = applesAndPiesOunces / 7 //this divides the tital off all con
 var totalOunces = applesToOunces + pies + harvest //this calculates all ounces of each whole conditions into a total of ounces
 
 if(applesToOunces / 2 > applesAndPiesOunces){
-	console.log("You have " + totalAppsPies + " apples after juicing all week!");
+	console.log("You have " + totalAppsPies + " apples after juicing all week!"); //this prints out to the console if just apple and pie ounces are greater than half the case of apples
 }else if(applesToOunces / 2 > totalOunces){
-	console.log("You have " + totalAppsPiesHarvest + " apples after baking and juicing all week!");
+	console.log("You have " + totalAppsPiesHarvest + " apples after baking and juicing all week!"); //this prints out to the console if all conditions are greater than half the case of apples
 }else{
-	console.log("You need to buy more apples!");
+	console.log("You need to buy more apples!"); //this prints out to the console if half of the case of apples is greater than either conditions
 }

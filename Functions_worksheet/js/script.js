@@ -10,3 +10,6 @@ circle(4);//refers to radius to be manipulated in the calculation when invoking 
 
 //Stung!
 
+function death(){
+	
+}

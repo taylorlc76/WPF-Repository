@@ -10,6 +10,7 @@ circle(4);//refers to radius to be manipulated in the calculation when invoking 
 
 //Stung!
 
-var stings = calculateStings(bees, pounds){
-	
+var stings = function(bees, pounds){
+	var death = bees * pounds;
+	return death;
 }

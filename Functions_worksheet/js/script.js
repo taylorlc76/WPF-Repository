@@ -14,3 +14,5 @@ var stings = function(bees, pounds){
 	var death = bees * pounds;
 	return death;
 }
+
+stings(8.666666667, 50);

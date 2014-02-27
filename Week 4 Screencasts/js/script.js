@@ -1,9 +1,11 @@
-//Week 4 Screencasts: Returning Values
+//Week 4 Screencasts: Anonymous Functions
 
-var total = calcArea(30, 20);
-
-function calcArea(w, h){
-	var area = w * H;
-	return area;//function spitting the info out
+var calcArea = function(width, height){//defining
+	//code the function runs
+	var area = width * height;
+	return area;
 }
-console.log(total);
+
+var a = calcArea(20, 30);//invoking
+
+console.log(a);

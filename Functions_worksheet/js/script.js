@@ -16,3 +16,4 @@ var stings = function(bees, pounds){
 }
 
 stings(8.666666667, 50);
+console.log("It takes " + stings + " bee stings to kill this animal.");

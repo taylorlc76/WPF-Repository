@@ -1,11 +1,9 @@
 //Lindsay Taylor 02/27/2014 Functions Worksheet
-var r = 4;
-var p = 3.14;
-function circle(r, p){
-	var circumference = r * p
+var radius = 4;
 
+function circle(d, p){
+	var diameter = 2 * radius;
+	var circumference = d * p
+	var p = 3.14;
+	
 }
-
-circle(2 * r, p);
-
-console.log(circle);

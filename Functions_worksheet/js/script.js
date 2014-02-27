@@ -1,7 +1,8 @@
 //Lindsay Taylor 02/27/2014 Functions Worksheet
 
-function circle(){
-	
+function circle(r, p){
+	var circumference = r * p
+
 }
 
-circle();
+circle(2 * r, p);

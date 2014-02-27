@@ -4,7 +4,11 @@
 
 var salary = prompt("On average, how much money do you earn each month?");
 
-var bills = prompt("How much do you pay each month on bills? Including car, credit cards, rent, utilities, ect.");
+var bills = prompt("How much do you pay each month on bills? \n Including car, credit cards, rent, utilities, ect.");
+
+var necessities = prompt("On average, how much do you spend each month for necessities? \n Such as toiletries, self care, prescriptions, ect.");
+
+var food = prompt("How much do you spend on food each month? \n Including dining out and buying at the grocery store.");
 
 function(){
 

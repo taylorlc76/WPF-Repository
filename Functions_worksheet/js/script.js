@@ -10,10 +10,10 @@ circle(4);//refers to radius to be manipulated in the calculation when invoking 
 
 //Stung!
 
-var stings = function(bees, pounds){
-	var death = bees * pounds;
-	return death;
+var stings = function(bees, pounds){//code the anonymous function runs
+	var death = bees * pounds;//the calculation for bee stings to pounds
+	return death;//sends the result to function
 }
 
-var s = stings(8.666666667, 50);
-console.log("It takes " + s + " bee stings to kill this animal.");
+var s = stings(8.666666667, 50);//invokes the function using these variables
+console.log("It takes " + s + " bee stings to kill this animal.");//prints out to the console

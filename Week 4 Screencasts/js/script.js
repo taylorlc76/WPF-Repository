@@ -1,9 +1,9 @@
-//Week 4 Screencasts: Arguments and Parameters
+//Week 4 Screencasts: Returning Values
 
-function dogYears(age){//parameters
-	var dogYears = age * 7;
-	console.log("Sparky is " + dogYears + " years old.");
+var total = calcArea(30, 20);
+
+function calcArea(w, h){
+	var area = w * H;
+	return area;//function spitting the info out
 }
-var age1 = 4;
-dogYears(age1);//arguments
-dogYears(5);
+console.log(total);

@@ -1,4 +1,4 @@
-//Week 4 Screencasts: Basic Function Structure
+//Week 4 Screencasts: Function Invocation
 
 function outptMsg(){
 	console.log("Hello World");
@@ -10,3 +10,7 @@ function calcArea(){
 	var area = width * height;
 	console.log(area);
 }
+
+calcArea();
+calcArea();
+calcArea();

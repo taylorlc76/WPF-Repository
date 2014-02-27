@@ -7,3 +7,4 @@ function circle(d, p){
 	var p = 3.14;
 	
 }
+circle(d, p);

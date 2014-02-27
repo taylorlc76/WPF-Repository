@@ -10,6 +10,8 @@ var necessities = prompt("On average, how much do you spend each month for neces
 
 var food = prompt("How much do you spend on food each month? \n Including dining out and buying at the grocery store.");
 
-function(){
-
+function budget(){
+	var month = salary - bills - necessities - food;
+	var year = month * 12
+	console.log("You have $" + month + " left for spending or saving each month or you have $" + year + " left each year.");
 }

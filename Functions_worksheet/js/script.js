@@ -8,3 +8,4 @@ function circle(d, p){
 	
 }
 circle(d, p);
+console.log(circle);

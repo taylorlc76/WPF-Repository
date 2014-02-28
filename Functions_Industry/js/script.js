@@ -12,3 +12,8 @@ if(croissants = flavored){
 }else{
 	alert("You did not input either flavored or plain!");
 }
+
+function pastries(tax){
+	var goodies = (scones + cinnamonRolls + flavoredNum + plainNum) * tax;
+
+}

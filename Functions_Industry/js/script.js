@@ -15,5 +15,5 @@ if(croissants = flavored){
 
 function pastries(tax){
 	var goodies = (scones + cinnamonRolls + flavoredNum + plainNum) * tax;
-
+	console.log("The subtotal for your pastries is $" + goodies + ". The total with tax is $" + total +".");
 }

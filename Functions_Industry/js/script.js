@@ -12,9 +12,16 @@ if(croissants = flavored){
 }else{
 	alert("You did not input either flavored or plain!");
 }
+sconePrice = scones * 2;
+
+cinnRollPrice = cinnamonRolls * 1.5;
+
+flavoredPrice = flavoredNum * 3;
+
+plainPrice = plainNum * 2.5;
 
 function pastries(tax){
-	var goodies = (scones + cinnamonRolls + flavoredNum + plainNum) * tax;
+	var goodies = (sconePrice + cinnRollPrice + flavoredPrice + plainPrice) * tax;
 	console.log("The subtotal for your pastries is $" + goodies + ". The total with tax is $" + total +".");
 }
 

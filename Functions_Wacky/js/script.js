@@ -10,3 +10,5 @@ function permission(){
 }
 
 permission();//this invokes the function
+
+console.log("The user is " + age + " years old.");
